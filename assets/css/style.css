@@ -1,14 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   font-family: "Aligarh-Regular";
   src: url(../fonts/aligarh/Aligarh-Regular.ttf);
 }
 .blink {
-  animation: blink-animation 0.5s ease 0s infinite alternate;
+  animation: blink-animation 1s ease 0s infinite alternate;
 }
 
 @keyframes blink-animation {
@@ -21,20 +16,14 @@
 }
 body {
   font-family: "Aligarh-Regular";
-  background-image: url(../images/bb.png);
-  background-color: #fff;
-  background-attachment: fixed;
+  font-weight: 700;
   letter-spacing: 1px;
-  font-weight: 800;
+  background-attachment: fixed;
 }
 
-.clorcodes {
+.clrcds {
   background-color: #b88943;
   background-color: #04303c;
   background-color: #045469;
   background-color: #945c2c;
-}
-
-.img-height img {
-  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
