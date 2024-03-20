@@ -20,6 +20,7 @@ h2 {
 }
 .cmm-btn {
   margin: 20px 0px;
+  margin-bottom: 30px;
 }
 .cmm-btn a {
   text-decoration: none;
@@ -195,25 +196,29 @@ body {
   text-align: center;
   padding: 20px 0px;
 }
-
-.asdasda {
+#abt-us .asdasda {
   height: 50vh;
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/homeabt.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.asdasda .wrapper {
+@media (max-width: 991px) {
+  #abt-us .asdasda {
+    margin: 20px;
+  }
+}
+#abt-us .asdasda .wrapper {
   display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.asdasda .video-main {
+#abt-us .asdasda .video-main {
   position: relative;
   display: inline-block;
 }
-.asdasda .video {
+#abt-us .asdasda .video {
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -241,10 +246,10 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   }
 }
-.asdasda .fa-play:before {
+#abt-us .asdasda .fa-play:before {
   content: "\f04b";
 }
-.asdasda .waves {
+#abt-us .asdasda .waves {
   position: absolute;
   width: 150px;
   height: 150px;
@@ -257,12 +262,12 @@ body {
   z-index: -1;
   animation: waves 3s ease-in-out infinite;
 }
-.asdasda .wave-1 {
+#abt-us .asdasda .wave-1 {
   animation-delay: 0s;
 }
-.asdasda .wave-2 {
+#abt-us .asdasda .wave-2 {
   animation-delay: 1s;
 }
-.asdasda .wave-3 {
+#abt-us .asdasda .wave-3 {
   animation-delay: 2s;
 }/*# sourceMappingURL=style.css.map */
