@@ -310,6 +310,17 @@ body {
     padding: 10px   ;
   }
 }
+.dbloc{
+  display: none;
+}
+@media(max-width:991px){
+  .dnone{
+  display: none;
+  }
+  .dbloc{
+    display: block;
+  }
+}
 
 #oursets{
   background-image: url(../images/home/Sets-bg.png);
@@ -351,5 +362,23 @@ align-items: center;
   }
   .out-sets-bg{
     // background-image: url(../images/bb.png);
+  }
+
+  
+  .inner-img {
+    transition: 0.2s;
+  }
+  
+  .inner-img:hover {
+    // transform: scale(1.1);
+    transform: scale(1.5);
+  }
+  
+  /* Other styling elements, that are not necessary for the example */
+  
+  .img-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    //border: 1px solid #000;
   }
 }

@@ -281,6 +281,18 @@ body {
   }
 }
 
+.dbloc {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .dnone {
+    display: none;
+  }
+  .dbloc {
+    display: block;
+  }
+}
 #oursets {
   background-image: url(../images/home/Sets-bg.png);
   background-repeat: no-repeat;
@@ -289,6 +301,7 @@ body {
   background-size: contain;
   background-position: right;
   padding: 100px 0px;
+  /* Other styling elements, that are not necessary for the example */
 }
 #oursets img {
   border-radius: 10px;
@@ -317,4 +330,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+#oursets .inner-img {
+  transition: 0.2s;
+}
+#oursets .inner-img:hover {
+  transform: scale(1.5);
+}
+#oursets .img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
