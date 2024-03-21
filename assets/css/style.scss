@@ -342,6 +342,12 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
+@media(max-width:991px){
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
   }
   .out-sets-bg{
     // background-image: url(../images/bb.png);
