@@ -270,4 +270,44 @@ body {
 }
 #abt-us .asdasda .wave-3 {
   animation-delay: 2s;
+}
+
+.padd-left {
+  padding-left: 0px;
+}
+@media (max-width: 991px) {
+  .padd-left {
+    padding: 10px;
+  }
+}
+
+#oursets {
+  background-image: url(../images/home/Sets-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  /* padding: 100px 0px; */
+  background-size: contain;
+  background-position: right;
+  padding: 100px 0px;
+}
+#oursets img {
+  border-radius: 10px;
+}
+#oursets .sets-img-left img {
+  width: 100%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#oursets .sets-img-center img {
+  width: 100%;
+  height: 390px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+#oursets .dd-flx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
