@@ -186,6 +186,9 @@ body {
 
 #abt-us {
   padding: 100px 0px;
+  background-image: url(../images/home/about-bg\ .jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 #abt-us .abt-tit h2 {
   background: linear-gradient(to right, #04303c, #945c2c);
