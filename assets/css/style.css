@@ -26,6 +26,12 @@ h2 {
   text-decoration: none;
   color: inherit;
 }
+.cmm-btn a:hover {
+  color: #fff !important;
+}
+.cmm-btn a:hover i {
+  color: #fff;
+}
 .cmm-btn .cta {
   position: relative;
   margin: auto;
@@ -39,7 +45,7 @@ h2 {
   left: 0;
   display: block;
   border-radius: 28px;
-  background: red;
+  background: #945c2c;
   width: 56px;
   height: 56px;
   transition: all 0.3s ease;
@@ -66,7 +72,8 @@ h2 {
 }
 .cmm-btn .cta:hover:before {
   width: 100%;
-  background: #ffab9d;
+  background: #04303c;
+  color: #fff !important;
 }
 .cmm-btn .cta:hover svg {
   transform: translateX(0);
@@ -306,6 +313,11 @@ body {
   padding: 100px 0px;
   /* Other styling elements, that are not necessary for the example */
 }
+@media (max-width: 991px) {
+  #oursets {
+    background-attachment: fixed;
+  }
+}
 #oursets img {
   border-radius: 10px;
 }
@@ -337,10 +349,83 @@ body {
 #oursets .inner-img {
   transition: 0.2s;
 }
-#oursets .inner-img:hover {
-  transform: scale(1.5);
-}
 #oursets .img-wrapper {
   display: inline-block;
   box-sizing: border-box;
+}
+
+#services {
+  padding: 100px 0px;
+}
+#services .serv-sec .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+#services .serv-sec .card {
+  position: relative;
+  width: 380px;
+  background: radial-gradient(#111 50%, #000 100%);
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#services .serv-sec img {
+  max-width: 100%;
+  display: block;
+}
+#services .serv-sec .card img {
+  transform: scale(1.3);
+  transition: 0.3s ease-out;
+}
+#services .serv-sec .card:hover img {
+  transform: scale(1.1) translateY(-20px);
+  opacity: 0.3;
+}
+#services .serv-sec .overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+#services .serv-sec .text-h1 {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+#services .serv-sec .text-p {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+#services .serv-sec .link-a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.4s;
+}
+#services .serv-sec .overlay .link-a:hover {
+  background: rgb(95, 199, 10);
+}
+#services .serv-sec .card:hover .overlay .text-h1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+#services .serv-sec .card:hover .overlay .text-p {
+  opacity: 1;
+  transform: translateY(0);
+}
+#services .serv-sec .card:hover .overlay .link-a {
+  opacity: 1;
+  transform: translateY(0);
 }/*# sourceMappingURL=style.css.map */
