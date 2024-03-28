@@ -356,6 +356,10 @@ body {
 
 #services {
   padding: 100px 0px;
+  background-image: url(../images//home/servbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #services .serv-sec .container {
   display: flex;
